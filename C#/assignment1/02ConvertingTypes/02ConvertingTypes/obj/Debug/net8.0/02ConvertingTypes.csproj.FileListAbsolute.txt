@@ -1,0 +1,15 @@
+/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C#/assignment1/02ConvertingTypes/02ConvertingTypes/obj/Debug/net8.0/02ConvertingTypes.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C#/assignment1/02ConvertingTypes/02ConvertingTypes/obj/Debug/net8.0/02ConvertingTypes.AssemblyInfoInputs.cache
+/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C#/assignment1/02ConvertingTypes/02ConvertingTypes/obj/Debug/net8.0/02ConvertingTypes.AssemblyInfo.cs
+/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C#/assignment1/02ConvertingTypes/02ConvertingTypes/obj/Debug/net8.0/02ConvertingTypes.csproj.CoreCompileInputs.cache
+/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C#/assignment1/02ConvertingTypes/02ConvertingTypes/obj/Debug/net8.0/02ConvertingTypes.sourcelink.json
+/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C#/assignment1/02ConvertingTypes/02ConvertingTypes/bin/Debug/net8.0/02ConvertingTypes
+/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C#/assignment1/02ConvertingTypes/02ConvertingTypes/bin/Debug/net8.0/02ConvertingTypes.deps.json
+/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C#/assignment1/02ConvertingTypes/02ConvertingTypes/bin/Debug/net8.0/02ConvertingTypes.runtimeconfig.json
+/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C#/assignment1/02ConvertingTypes/02ConvertingTypes/bin/Debug/net8.0/02ConvertingTypes.dll
+/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C#/assignment1/02ConvertingTypes/02ConvertingTypes/bin/Debug/net8.0/02ConvertingTypes.pdb
+/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C#/assignment1/02ConvertingTypes/02ConvertingTypes/obj/Debug/net8.0/02ConvertingTypes.dll
+/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C#/assignment1/02ConvertingTypes/02ConvertingTypes/obj/Debug/net8.0/refint/02ConvertingTypes.dll
+/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C#/assignment1/02ConvertingTypes/02ConvertingTypes/obj/Debug/net8.0/02ConvertingTypes.pdb
+/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C#/assignment1/02ConvertingTypes/02ConvertingTypes/obj/Debug/net8.0/02ConvertingTypes.genruntimeconfig.cache
+/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C#/assignment1/02ConvertingTypes/02ConvertingTypes/obj/Debug/net8.0/ref/02ConvertingTypes.dll

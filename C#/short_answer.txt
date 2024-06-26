@@ -1,0 +1,66 @@
+
+I. Understanding Data Types
+1.
+    - A person’s telephone number: String
+    - A person’s height: double
+    - A person’s age: byte
+    - A person’s gender (Male, Female, Prefer Not To Answer): enum
+    - A person’s salary: integer/uint
+    - A book’s ISBN: String
+    - A book’s price: double
+    - A book’s shipping weight: float
+    - A country’s population: integer/uint
+    - The number of stars in the universe: integer/uint
+    - The number of employees in each of the small or medium businesses in the United Kingdom (up to about 50,000 employees per business): ushort
+     
+2.
+- value type directly holds the value while reference type holds the memory address that contains the value
+- value type are stored in stack memory while reference types are stored in heap memory
+- value type will not be collected by garbage collector while reference types will be collected by garbage collector
+- value type can be created by struct or enum while reference type can be created by class, interface, delegate or array
+- value type cannot accept null value while reference type can
+
+- boxing vs unboxing
++ boxing converts value type to reference type, while unboxing converts reference type to value type
+
+3.
+- managed resources and unmanaged resources are two part of the heap memory
+- managed resources is handled by the garbage collector
+- unmanaged resources are those that garbage collector does not handle, which includes database connection, file transmission, etc
+- managed resource are allocated and deallocated automatically by the GC, while unmanaged resources have to be cleared manually by calling Dispose() method
+
+4. Garbage collector will serve as an automatic memory management and works with the heap memory. It manages the allocation and release of memory for an application
+
+
+II. Controlling Flow and Converting Types
+1. 2.
+If we divide an int/double variable by 0, it will raise an error
+
+3.
+It will raise overflow error: operation overflows at compile time in checked mode
+
+4.
+x = y++ means the value of y is assigned to x then being increased by 1
+x = ++y means the value of y is increased by 1 and then assigned to x
+
+5.
+- break: exist the loop immediately
+- continue: exit the current iteration and move to next iteration
+- return: using when loop is used in a function, it will break the loop and return the value of the function then exist the function definition
+
+6.
+- Three parts of the for statment: initializer, condition, iterator
+- Syntactically, all three part of the for statement are optional. however, if you leave all three part in the for loop blank, the for loop will never stop. So you have to have a condition to stop the loop.
+
+7.
+- the = operator is the assignment operator. It is used to assign a value to a variable
+- the == operator is the comparision operator. It is used to compare two values
+
+8.
+- the for(; true ; ) is the for statement in which the condition is always true, so the loop will run forever
+
+9.
+- the underscore in a switch expression represents a default pattern. It is used to match any value that hasn't been explicitly matched by previous patterns in the switch expression
+
+10.
+-To be able to use the foreach statement, an object must implement the IEnumerable interface.
