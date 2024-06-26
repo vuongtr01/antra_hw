@@ -1,0 +1,15 @@
+/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C#/assignment1/StringAndArray/StringAndArray/bin/Debug/net8.0/StringAndArray
+/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C#/assignment1/StringAndArray/StringAndArray/bin/Debug/net8.0/StringAndArray.deps.json
+/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C#/assignment1/StringAndArray/StringAndArray/bin/Debug/net8.0/StringAndArray.runtimeconfig.json
+/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C#/assignment1/StringAndArray/StringAndArray/bin/Debug/net8.0/StringAndArray.dll
+/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C#/assignment1/StringAndArray/StringAndArray/bin/Debug/net8.0/StringAndArray.pdb
+/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C#/assignment1/StringAndArray/StringAndArray/obj/Debug/net8.0/StringAndArray.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C#/assignment1/StringAndArray/StringAndArray/obj/Debug/net8.0/StringAndArray.AssemblyInfoInputs.cache
+/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C#/assignment1/StringAndArray/StringAndArray/obj/Debug/net8.0/StringAndArray.AssemblyInfo.cs
+/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C#/assignment1/StringAndArray/StringAndArray/obj/Debug/net8.0/StringAndArray.csproj.CoreCompileInputs.cache
+/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C#/assignment1/StringAndArray/StringAndArray/obj/Debug/net8.0/StringAndArray.sourcelink.json
+/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C#/assignment1/StringAndArray/StringAndArray/obj/Debug/net8.0/StringAndArray.dll
+/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C#/assignment1/StringAndArray/StringAndArray/obj/Debug/net8.0/refint/StringAndArray.dll
+/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C#/assignment1/StringAndArray/StringAndArray/obj/Debug/net8.0/StringAndArray.pdb
+/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C#/assignment1/StringAndArray/StringAndArray/obj/Debug/net8.0/StringAndArray.genruntimeconfig.cache
+/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C#/assignment1/StringAndArray/StringAndArray/obj/Debug/net8.0/ref/StringAndArray.dll
