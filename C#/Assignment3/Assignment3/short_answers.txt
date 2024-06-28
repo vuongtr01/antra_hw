@@ -1,0 +1,66 @@
+1.
+6 access modifiers:
+- public: the public member can be accessed from outside the class's definition and hierarchy of derived classes
+- private: the member cannot be accessed outside the scope of the class definition
+- protected: the member can be accessed in the scope of class definition and derived class only
+- internal: the member is visible only within the current compilation unit
+- protected internal: Only code in the same assembly or in a derived class in another assembly can access this type or member
+- private protected: Only code in the same assembly and in the same class or a derived class can access the type or member.
+
+2.
+- static: the member belongs to the type itself rather than to any specific object. static can be applied to fields, methods, properties, events and constructors
+- const: the memeber is immutable and known at complie time. const can be applied to fields and variables only
+- readonly: is used to declare a field that can only be assigned a value during declaration or in constructor, and can be applied to field only
+
+3.
+- Constructor is a special method that has same name as the class name and does not have any return type
+- It is used to create an object of the class and initalize the class members. 
+- if there's no constructor in the class, c# compiler will provide a default constructor and is parameterless. 
+- Constructor can be overloaded which means method can have the same name but different parameters. 
+- Constructor cannot be inherited. So a constructor can not be overriden. 
+- By default a derived class constructor will make a call to a base class constructor.
+
+4.
+- Partial keyword allows to split definition of a class, struc, interface in multiple files.
+
+5.
+- data structure that provides an easy way to store a fixed number of items of different types.
+- Tuples aThey are particularly handy for returning multiple values from a method. 
+
+6.
+- record modifier is used to define a reference type that provides built-in functionality for encapsulating data.
+
+7.
+- Overloading: same method but different parameters
+- Overriding: give a different definition of the same class. It is used to implement method from parents class when inherit
+
+8.
+- field: is variables that are declared directly in a class or struct and used to hold the actual data of the class or struct. It is accessed directly without any additional logic
+- property: is members that provide a flexible mechanism to read, write, or compute the values of private fields. They are defined using accessors (get and set).
+Property is used to expose data to the outside world while providing a level of encapsulation and allowing the implementation of additional logic when getting or setting the value.
+
+9.
+- we can make a method parameter optional by providing a default value for the parameter in the method signature.
+When a default value is specified, the parameter becomes optional, and the caller can omit it. If the caller omits the parameter, the default value is used.
+
+10.
+- Abstract class will provide base class to its subclasses; is a wise choice when we have class hierarchy. 
+Interface will define common functionalities and behaviors that can be implemented by any class.
+- Once class can only inherit from one abstract or concrete class but one class can implement multiple interfaces. 
+-Methods in abstract class can be abstract method or non-abstract method but methods in an interface is by default public and abstract. 
+
+11.
+- members of an interface are public and abstract
+
+12. True
+13. True
+14. False
+15. False
+16. True
+17. True
+18. True
+19. False
+20. False
+21. True
+22. False
+23. True
