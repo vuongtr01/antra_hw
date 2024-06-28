@@ -1,0 +1,15 @@
+/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C#/Assignment4/Assignment4/obj/Debug/net8.0/Assignment4.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C#/Assignment4/Assignment4/obj/Debug/net8.0/Assignment4.AssemblyInfoInputs.cache
+/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C#/Assignment4/Assignment4/obj/Debug/net8.0/Assignment4.AssemblyInfo.cs
+/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C#/Assignment4/Assignment4/obj/Debug/net8.0/Assignment4.csproj.CoreCompileInputs.cache
+/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C#/Assignment4/Assignment4/obj/Debug/net8.0/Assignment4.sourcelink.json
+/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C#/Assignment4/Assignment4/bin/Debug/net8.0/Assignment4
+/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C#/Assignment4/Assignment4/bin/Debug/net8.0/Assignment4.deps.json
+/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C#/Assignment4/Assignment4/bin/Debug/net8.0/Assignment4.runtimeconfig.json
+/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C#/Assignment4/Assignment4/bin/Debug/net8.0/Assignment4.dll
+/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C#/Assignment4/Assignment4/bin/Debug/net8.0/Assignment4.pdb
+/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C#/Assignment4/Assignment4/obj/Debug/net8.0/Assignment4.dll
+/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C#/Assignment4/Assignment4/obj/Debug/net8.0/refint/Assignment4.dll
+/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C#/Assignment4/Assignment4/obj/Debug/net8.0/Assignment4.pdb
+/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C#/Assignment4/Assignment4/obj/Debug/net8.0/Assignment4.genruntimeconfig.cache
+/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C#/Assignment4/Assignment4/obj/Debug/net8.0/ref/Assignment4.dll

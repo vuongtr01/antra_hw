@@ -1,0 +1,24 @@
+1.
+- Generics allow developers to write a method, class, or interface once and use it with different data types without redundancy
+
+2.
+- Create a List of string variable, List<string>, then add string to the list
+
+3.
+- There are two generic type parameter in Dictionary: TKey, TValue
+
+4. False
+
+5.
+- Add() method
+
+6.
+- Remove(T item)
+- RemoveAt(int index)
+
+7.
+- we indicate that a class has a generic type parameter by using angle brackets <> with the type parameter inside them
+
+8. False
+9.True
+10.True
