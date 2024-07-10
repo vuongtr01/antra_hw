@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.footer {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.footer div {
+    flex: 1;
+}
+.footer div:not(:last-child) {
+    margin-right: 20px;
+}
+.footer h3 {
+    margin-top: 0;
+}
+.footer p, .footer a {
+    margin: 5px 0;
+    color: white;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+a {
+    display: block;
+}

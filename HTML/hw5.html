@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 4</title>
+    <style>
+        .nested-table {
+            text-align: center;
+        }
+        .align-right {
+            text-align: right;
+        }
+        .align-left {
+            text-align: left;
+        }
+        .btn-link {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #007BFF; /* Bootstrap primary blue color */
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            border: 1px solid transparent;
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <tr>
+                <th colspan="4">Antra Life</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2" class="align-left">
+                    <a href="https://www.google.com/" target="_blank" class="btn-link">Google</a>
+                </td>
+                <td colspan="2" class="align-right">
+                    <a href="https://www.google.com/" target="_blank" class="btn-link">GitHub</a>
+                </td>
+            </tr>
+            <tr>
+                <td><a href="https://www.google.com/" target="_blank" class="btn-link">FB</a></td>
+                <td class="align-left">
+                    <a href="https://www.google.com/" target="_blank" class="btn-link">GMail</a>
+                </td>
+                <td><a href="https://www.google.com/" target="_blank" class="btn-link">Youtube</a></td>
+                <td><a href="https://www.google.com/" target="_blank" class="btn-link">2048</a></td>
+            </tr>
+            <tr>
+                <td class="align-right">
+                    <a href="https://www.google.com/" target="_blank" class="btn-link">FOOD</a>
+                </td>
+                <td colspan="2" class="align-left">
+                    <a href="https://www.google.com/" target="_blank" class="btn-link">GAME</a>
+                </td>
+                <td>
+                    <table border="1" class="nested-table">
+                        <tr>
+                            <td><a href="https://www.google.com/" target="_blank" class="btn-link">Social Life</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.google.com/" target="_blank" class="btn-link">Sleep</a></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" class="align-right">
+                    <a href="https://www.google.com/" target="_blank" class="btn-link">Beer &gt;</a>
+                </td>
+                <td class="align-left">
+                    <a href="https://www.google.com/" target="_blank" class="btn-link">WC</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

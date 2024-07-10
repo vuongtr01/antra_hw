@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wallpaper {
+    width: 100%;
+    height: 300px;
+    background-image: url('https://antra.com/wp-content/uploads/2023/03/Antra-black.png'); /* Replace with your wallpaper URL */
+    background-size: cover;
+    background-position: center;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    width: 100%;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-weight: bold;
+}
+.navbar a:hover {
+    background-color: darkblue;
+}
+.main-content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 20px;
+    padding: 0 20px;
+}
+.news-section {
+    width: 66.66%;
+    margin-right: 20px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: white;
+}
+.news-item {
+    display: flex;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+.news-item img {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.news-item .content {
+    flex: 1;
+}
+.advertiser-section {
+    width: 33.33%;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: white;
+}
+.advertiser-item {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-bottom: 20px;
+}
