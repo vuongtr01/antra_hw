@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework.Presentation", "EntityFramework.Presentation\EntityFramework.Presentation.csproj", "{0E46A725-9DA4-4ECB-830B-99844B81944E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework.Core", "EntityFramework.Core\EntityFramework.Core.csproj", "{D522553C-749C-4B91-AC7C-333429330658}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework.Infrastructure", "EntityFramework.Infrastructure\EntityFramework.Infrastructure.csproj", "{D1D40FDE-C117-4417-A622-327202CBEDCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E46A725-9DA4-4ECB-830B-99844B81944E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E46A725-9DA4-4ECB-830B-99844B81944E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E46A725-9DA4-4ECB-830B-99844B81944E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E46A725-9DA4-4ECB-830B-99844B81944E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D522553C-749C-4B91-AC7C-333429330658}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D522553C-749C-4B91-AC7C-333429330658}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D522553C-749C-4B91-AC7C-333429330658}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D522553C-749C-4B91-AC7C-333429330658}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1D40FDE-C117-4417-A622-327202CBEDCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1D40FDE-C117-4417-A622-327202CBEDCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1D40FDE-C117-4417-A622-327202CBEDCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1D40FDE-C117-4417-A622-327202CBEDCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
