@@ -1,0 +1,89 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "MovieShop.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/MovieShop.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MovieShop.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MovieShop.Core/1.0.0": {
+      "type": "project",
+      "path": "../MovieShop.Core/MovieShop.Core.csproj",
+      "msbuildProject": "../MovieShop.Core/MovieShop.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "MovieShop.Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/tranlucvuong/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C#/MovieShop/MovieShop.Infrastructure/MovieShop.Infrastructure.csproj",
+      "projectName": "MovieShop.Infrastructure",
+      "projectPath": "/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C#/MovieShop/MovieShop.Infrastructure/MovieShop.Infrastructure.csproj",
+      "packagesPath": "/Users/tranlucvuong/.nuget/packages/",
+      "outputPath": "/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C#/MovieShop/MovieShop.Infrastructure/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/tranlucvuong/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C#/MovieShop/MovieShop.Core/MovieShop.Core.csproj": {
+              "projectPath": "/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C#/MovieShop/MovieShop.Core/MovieShop.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.302/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

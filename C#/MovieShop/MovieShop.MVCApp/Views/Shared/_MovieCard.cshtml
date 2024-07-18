@@ -1,0 +1,9 @@
+@model MovieCardResponseModel
+
+<div class="col-md-4 mb-4">
+    <div class="card movie-card" style="background-image: url(@Model.ImgUrl);" onclick="window.location.href='https://www.google.com/'">
+        <div class="movie-card-overlay">
+            <h5 class="card-title">@Model.Name</h5>
+        </div>
+    </div>
+</div>
