@@ -1,6 +1,9 @@
+using MovieShop.Core.Entities;
+
 namespace MovieShop.Core.Contracts.Repositories;
 
-public class IMovieRepository
+public interface IMovieRepository: IRepository<Movie>
 {
+    Movie GetHighestGrossingMovies();
     
 }
