@@ -85,19 +85,19 @@ public class MovieService: IMovieService
         {
             MovieResponseModel model = new MovieResponseModel();
             model.Id = movie.Id;
-            model.BackdropUrl = model.BackdropUrl;
-            model.Budget = model.Budget;
-            model.CreateBy = model.CreateBy;
-            model.CreatedDate = model.CreatedDate;
-            model.ImdbUrl = model.ImdbUrl;
-            model.Overview = model.Overview;
-            model.PosterUrl = model.PosterUrl;
-            model.Price = model.Price;
-            model.ReleaseDate = model.ReleaseDate;
-            model.Revenue = model.Revenue;
-            model.RunTime = model.RunTime;
-            model.Title = model.Title;
-            model.TmdbUrl = model.TmdbUrl;
+            model.BackdropUrl = movie.BackdropUrl;
+            model.Budget = movie.Budget;
+            model.CreateBy = movie.CreateBy;
+            model.CreatedDate = movie.CreatedDate;
+            model.ImdbUrl = movie.ImdbUrl;
+            model.Overview = movie.Overview;
+            model.PosterUrl = movie.PosterUrl;
+            model.Price = movie.Price;
+            model.ReleaseDate = movie.ReleaseDate;
+            model.Revenue = movie.Revenue;
+            model.RunTime = movie.RunTime;
+            model.Title = movie.Title;
+            model.TmdbUrl = movie.TmdbUrl;
             
             movieResponseModels.Add(model);
         }
@@ -113,19 +113,21 @@ public class MovieService: IMovieService
         {
             MovieResponseModel model = new MovieResponseModel();
             model.Id = id;
-            model.BackdropUrl = model.BackdropUrl;
-            model.Budget = model.Budget;
-            model.CreateBy = model.CreateBy;
-            model.CreatedDate = model.CreatedDate;
-            model.ImdbUrl = model.ImdbUrl;
-            model.Overview = model.Overview;
-            model.PosterUrl = model.PosterUrl;
-            model.Price = model.Price;
-            model.ReleaseDate = model.ReleaseDate;
-            model.Revenue = model.Revenue;
-            model.RunTime = model.RunTime;
-            model.Title = model.Title;
-            model.TmdbUrl = model.TmdbUrl;
+            model.BackdropUrl = result.BackdropUrl;
+            model.Budget = result.Budget;
+            model.CreateBy = result.CreateBy;
+            model.CreatedDate = result.CreatedDate;
+            model.ImdbUrl = result.ImdbUrl;
+            model.Overview = result.Overview;
+            model.PosterUrl = result.PosterUrl;
+            model.Price = result.Price;
+            model.ReleaseDate = result.ReleaseDate;
+            model.Revenue = result.Revenue;
+            model.RunTime = result.RunTime;
+            model.Title = result.Title;
+            model.TmdbUrl = result.TmdbUrl;
+            model.Tagline = result.Tagline;
+            return model;
         }
 
         return null;

@@ -43,6 +43,7 @@ public class BaseRepository<T>: IRepository<T> where T: class
 
     public IEnumerable<T> GetAll()
     {
-        return this._movieShopDbContext.Set<T>().ToList();
+        var res = _movieShopDbContext.Set<T>().ToList().Take(5);
+        return res;
     }
 }
