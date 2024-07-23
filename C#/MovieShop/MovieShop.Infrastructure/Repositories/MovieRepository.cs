@@ -6,13 +6,13 @@ using MovieShop.Infrastructure.Data;
 
 namespace MovieShop.Infrastructure.Repositories;
 
-public class MovieRepository: BaseRepository<Movie>, IMovieRepository
+public class MovieRepository: BaseRepositoryAsync<Movie>, IMovieRepository
 {
     public MovieRepository(MovieShopDbContext context): base(context)
     {
     }
 
-    public Movie GetHighestGrossingMovies()
+    public async Task<Movie> GetHighestGrossingMovies()
     {
         var highest = _movieShopDbContext.Purchases.GroupBy(p => p.Movie)
             .Select(g => new
@@ -31,12 +31,12 @@ public class MovieRepository: BaseRepository<Movie>, IMovieRepository
         return null;
     }
 
-    public List<MovieCastResponseModel> GetCastsList(int id)
+    public async Task<List<MovieCastResponseModel>> GetCastsList(int id)
     {
-        var res = _movieShopDbContext.Movies
+        var res = await _movieShopDbContext.Movies
             .Include(m => m.MovieCasts)
             .ThenInclude(mc => mc.Cast)
-            .FirstOrDefault(m => m.Id == id);
+            .FirstOrDefaultAsync(m => m.Id == id);
         
         return res?.MovieCasts.Select(mc => new MovieCastResponseModel()
         {

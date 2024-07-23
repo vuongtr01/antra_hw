@@ -4,5 +4,5 @@ namespace MovieShop.Core.Contracts.Services;
 
 public interface ICastService
 {
-    CastResponseModel GetById(int id);
+    Task<CastResponseModel> GetById(int id);
 }

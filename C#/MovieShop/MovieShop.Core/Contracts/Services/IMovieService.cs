@@ -5,10 +5,10 @@ namespace MovieShop.Core.Contracts.Services;
 
 public interface IMovieService
 {
-    int AddMovie(MovieRequestModel model);
-    int UpdateMovie(MovieRequestModel model, int id);
-    int DeleteMovie(int id);
-    IEnumerable<MovieResponseModel> GetAllMovies();
-    MovieResponseModel GetById(int id);
-    List<MovieCastResponseModel> GetCastsList(int id);
+    Task<int> AddMovie(MovieRequestModel model);
+    Task<int> UpdateMovie(MovieRequestModel model, int id);
+    Task<int> DeleteMovie(int id);
+    Task<IEnumerable<MovieResponseModel>> GetAllMovies();
+    Task<MovieResponseModel> GetById(int id);
+    Task<List<MovieCastResponseModel>> GetCastsList(int id);
 }

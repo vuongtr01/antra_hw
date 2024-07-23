@@ -13,19 +13,19 @@ public class MoviesController : Controller
         this._service = service;
     }
     // GET
-    public IActionResult Index()
+    public async Task<IActionResult> Index()
     {
-        var movies = _service.GetAllMovies();
+        var movies = await _service.GetAllMovies();
         return View(movies);
     }
 
-    public IActionResult Detail(int id)
+    public async Task<IActionResult> Detail(int id)
     {
-        var movie = _service.GetById(id);
+        var movie = await _service.GetById(id);
 
         if (movie != null)
         {
-            ViewBag.castsList = _service.GetCastsList(id);
+            ViewBag.castsList = await _service.GetCastsList(id);
             return View(movie);
         }
 

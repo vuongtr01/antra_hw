@@ -14,23 +14,8 @@ public class MovieService: IMovieService
     {
         this._movieRepository = movieRepository;
     }
-    public List<MovieCardResponseModel> getMovies()
-    {
-        return new List<MovieCardResponseModel>()
-        {
-            new MovieCardResponseModel()
-            {
-                Id = 1, ImgUrl = "https://image.tmdb.org/t/p/w342//78lPtwv72eTNqFW9COBYI0dWDJa.jpg", Name = "Movie 1"
-            },
-            new MovieCardResponseModel()
-            {
-                Id = 2, ImgUrl = "https://image.tmdb.org/t/p/w342//78lPtwv72eTNqFW9COBYI0dWDJa.jpg", Name = "Movie 2"
-            },
 
-        };
-    }
-
-    public int AddMovie(MovieRequestModel model)
+    public async Task<int> AddMovie(MovieRequestModel model)
     {
         Movie entity = new Movie();
         entity.BackdropUrl = model.BackdropUrl;
@@ -47,10 +32,10 @@ public class MovieService: IMovieService
         entity.Title = model.Title;
         entity.TmdbUrl = model.TmdbUrl;
 
-        return this._movieRepository.Insert(entity);
+        return await _movieRepository.Insert(entity);
     }
 
-    public int UpdateMovie(MovieRequestModel model, int id)
+    public async Task<int> UpdateMovie(MovieRequestModel model, int id)
     {
         Movie entity = new Movie();
         entity.BackdropUrl = model.BackdropUrl;
@@ -68,17 +53,17 @@ public class MovieService: IMovieService
         entity.TmdbUrl = model.TmdbUrl;
         entity.Id = id;
 
-        return _movieRepository.Update(entity);
+        return await _movieRepository.Update(entity);
     }
 
-    public int DeleteMovie(int id)
+    public async Task<int> DeleteMovie(int id)
     {
-        return _movieRepository.DeleteById(id);
+        return await _movieRepository.DeleteById(id);
     }
 
-    public IEnumerable<MovieResponseModel> GetAllMovies()
+    public async Task<IEnumerable<MovieResponseModel>> GetAllMovies()
     {
-        var result = _movieRepository.GetAll();
+        var result = await _movieRepository.GetAll();
         List < MovieResponseModel > movieResponseModels = new List<MovieResponseModel>();
 
         foreach (var movie in result)
@@ -105,9 +90,9 @@ public class MovieService: IMovieService
         return movieResponseModels;
     }
 
-    public MovieResponseModel GetById(int id)
+    public async Task<MovieResponseModel> GetById(int id)
     {
-        var result = _movieRepository.GetById(id);
+        var result = await _movieRepository.GetById(id);
 
         if (result != null)
         {
@@ -133,8 +118,8 @@ public class MovieService: IMovieService
         return null;
     }
 
-    public List<MovieCastResponseModel> GetCastsList(int id)
+    public async Task<List<MovieCastResponseModel>> GetCastsList(int id)
     {
-        return _movieRepository.GetCastsList(id);
+        return await _movieRepository.GetCastsList(id);
     }
 }

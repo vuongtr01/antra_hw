@@ -2,7 +2,7 @@ using MovieShop.Core.Entities;
 
 namespace MovieShop.Core.Contracts.Repositories;
 
-public interface ICastRepository: IRepository<Cast>
+public interface ICastRepository: IRepositoryAsync<Cast>
 {
-    Cast GetCastDetails(int id);
+    Task<Cast> GetCastDetails(int id);
 }

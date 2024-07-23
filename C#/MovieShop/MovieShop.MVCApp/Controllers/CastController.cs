@@ -13,11 +13,10 @@ public class CastController : Controller
     {
         this._castService = service;
     }
-    public IActionResult Detail(int id)
+    public async Task<IActionResult> Detail(int id)
     {
-        CastResponseModel model = _castService.GetById(id);
-        var test = model.movies;
-        var test2 = 1;
+        CastResponseModel model = await _castService.GetById(id);
+
         return View(model);
     }
 }

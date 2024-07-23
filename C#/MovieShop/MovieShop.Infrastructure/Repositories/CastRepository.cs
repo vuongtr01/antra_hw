@@ -6,17 +6,17 @@ using MovieShop.Infrastructure.Data;
 
 namespace MovieShop.Infrastructure.Repositories;
 
-public class CastRepository: BaseRepository<Cast>, ICastRepository
+public class CastRepository: BaseRepositoryAsync<Cast>, ICastRepository
 {
     public CastRepository(MovieShopDbContext movieShopDbContext) : base(movieShopDbContext)
     {
     }
 
-    public Cast GetCastDetails(int id)
+    public async Task<Cast> GetCastDetails(int id)
     {
-        return _movieShopDbContext.Casts
+        return await _movieShopDbContext.Casts
             .Include(c => c.MovieCasts)
             .ThenInclude(c => c.Movie)
-            .FirstOrDefault(c => c.Id == id);
+            .FirstOrDefaultAsync(c => c.Id == id);
     }
 }
