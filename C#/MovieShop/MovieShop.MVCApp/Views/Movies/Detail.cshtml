@@ -56,14 +56,7 @@
         </div>
         <div class="col-sm-9" style="align-items: center; justify-items: center">
             <h6>Casts</h6>
-            @for (int i = 0; i <= 4; i++)
-            {
-                <ul class="list-group list-group-horizontal">
-                    <li class="list-group-item">avata</li>
-                    <li class="list-group-item">Name</li>
-                    <li class="list-group-item">Character</li>
-                </ul>
-            }
+            <partial name="_CastList" model="ViewBag.castsList"/>
         </div>
     </div>
 </div>

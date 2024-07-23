@@ -11,6 +11,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<IMovieService, MovieService>();
 builder.Services.AddScoped<IMovieRepository, MovieRepository>();
+builder.Services.AddScoped<ICastService, CastService>();
+builder.Services.AddScoped<ICastRepository, CastRepository>();
 builder.Services.AddDbContext<MovieShopDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("MovieShopConnection"));
@@ -35,6 +37,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Movies}/{action=Index}/{id?}");
 
 app.Run();

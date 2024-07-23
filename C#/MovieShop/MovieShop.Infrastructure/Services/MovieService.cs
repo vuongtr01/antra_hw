@@ -132,4 +132,9 @@ public class MovieService: IMovieService
 
         return null;
     }
+
+    public List<MovieCastResponseModel> GetCastsList(int id)
+    {
+        return _movieRepository.GetCastsList(id);
+    }
 }

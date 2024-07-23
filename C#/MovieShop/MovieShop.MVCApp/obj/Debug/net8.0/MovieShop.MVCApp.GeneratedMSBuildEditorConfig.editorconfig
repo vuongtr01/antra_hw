@@ -34,8 +34,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C\#/MovieShop/MovieShop.MVCApp/Views/Cast/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FzdC9JbmRleC5jc2h0bWw=
+[/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C\#/MovieShop/MovieShop.MVCApp/Views/Cast/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FzdC9EZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C\#/MovieShop/MovieShop.MVCApp/Views/Home/Index.cshtml]
@@ -56,6 +56,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C\#/MovieShop/MovieShop.MVCApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C\#/MovieShop/MovieShop.MVCApp/Views/Shared/_CastList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19DYXN0TGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/tranlucvuong/Desktop/Luther/self_study/Antra_SEP/antra_hw/C\#/MovieShop/MovieShop.MVCApp/Views/Shared/_MovieCard.cshtml]

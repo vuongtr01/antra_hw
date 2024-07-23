@@ -10,4 +10,5 @@ public interface IMovieService
     int DeleteMovie(int id);
     IEnumerable<MovieResponseModel> GetAllMovies();
     MovieResponseModel GetById(int id);
+    List<MovieCastResponseModel> GetCastsList(int id);
 }

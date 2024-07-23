@@ -25,6 +25,7 @@ public class MoviesController : Controller
 
         if (movie != null)
         {
+            ViewBag.castsList = _service.GetCastsList(id);
             return View(movie);
         }
 
